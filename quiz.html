@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Websites</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="main_div">
+    <div class="inner_div">
+      <div class="question_option_div">
+        <h4 id="question">Q1: What is JavaScript?</h4>
+        <div class="options">
+          <div class="options">
+
+            <label class="rad-label">
+              <input type="radio" class="rad-input" name="rad" id="ans1">
+              <div class="rad-design"></div>
+              <div class="rad-text" id="op1">JavaScript is the Scripting language</div>
+            </label>
+
+            <label class="rad-label">
+              <input type="radio" class="rad-input" name="rad" id="ans2">
+              <div class="rad-design"></div>
+              <div class="rad-text" id="op2"> JavaScript compile the code</div>
+            </label>
+
+            <label class="rad-label">
+              <input type="radio" class="rad-input" name="rad" id="ans3">
+              <div class="rad-design"></div>
+              <div class="rad-text" id="op3"> JavaScript only use for front-End</div>
+            </label>
+
+            <label class="rad-label">
+              <input type="radio" class="rad-input" name="rad" id="ans4">
+              <div class="rad-design"></div>
+              <div class="rad-text" id="op4"> None of Above</div>
+            </label>
+
+          </div>
+
+        </div>
+
+
+        <div class="submit_button btn">
+          <button id="submit">Next<i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+
+      <div id="scoreboard" class="score_board">
+        <h3>Score board</h3>
+      </div>
+    </div>
+
+  </div>
+
+
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
